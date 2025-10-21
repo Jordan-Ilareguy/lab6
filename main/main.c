@@ -40,6 +40,8 @@ void app_main() {
     // 1: Mount the SPIFFS filesystem.
     // If the partition is invalid/unformatted, fs_mount_or_die() will format and mount it.
     
+    /*
+
     fs_mount_or_die();
 
     // 2: Open a file for writing in SPIFFS.
@@ -65,11 +67,12 @@ void app_main() {
 
     // 6: Prove persistence.
     // Wait 2 seconds, then reboot the ESP32.
-    // After reboot, SPIFFS will still contain "hello.txt".
+    // After reboot, SPIFFS will still contain "fav_song.txt".
     printf("Rebooting in 10s to prove persistence...\n");
     vTaskDelay(pdMS_TO_TICKS(10000));  // Delay = 10000 ms = 10 seconds
     esp_restart();                    // Trigger a software reset
     
+    */
 
     //---------------------------------------------------------
 
@@ -77,47 +80,50 @@ void app_main() {
     /**
      * Flow:
      *   1. Mount SPIFFS.
-     *   2. Create/write a file ("hello.txt") if it doesn't exist.
+     *   2. Create/write a file ("fav_song.txt") if it doesn't exist.
      *   3. Read back the file contents.
      *   4. Append a new line to the file.
      *   5. Read back again to verify the appended line.
      *   6. Reboot to demonstrate persistence across resets.
      */
-    /*
+    
+    
+
     // Step 1: Mount SPIFFS
     fs_mount_or_die();
 
-    // Step 2: Create/overwrite hello.txt
-    FILE *f = fopen("/spiffs/hello.txt", "w");
+    // Step 2: Open fav_song.txt for appending
+    FILE *f = fopen("/spiffs/fav_song.txt", "a");
     if (!f) {
         printf("open for write failed\n");
         return;
     }
     fprintf(f, "Hello File System Lab!\nLine 2.\n");
     fclose(f);
-    printf("[+] wrote hello.txt\n");
+    printf("[+] wrote fav_song.txt\n");
 
     // Step 3: Read back file
-    fs_print_file("/spiffs/hello.txt");
+    fs_print_file("/spiffs/fav_song.txt");
 
     // Step 4: Append a new line
-    f = fopen("/spiffs/hello.txt", "a");   // "a" = append mode
+    f = fopen("/spiffs/fav_song.txt", "a");   // "a" = append mode
     if (!f) {
         printf("open for append failed\n");
         return;
     }
     fprintf(f, "Line 3 after update.\n");
     fclose(f);
-    printf("[+] appended new line to hello.txt\n");
+    printf("[+] appended new line to fav_song.txt\n");
 
     // Step 5: Read file again (should now include the appended line)
-    fs_print_file("/spiffs/hello.txt");
+    fs_print_file("/spiffs/fav_song.txt");
 
     // Step 6: Reboot after 10 seconds to show persistence
     printf("Rebooting in 10s to prove persistence...\n");
     vTaskDelay(pdMS_TO_TICKS(10000));
     esp_restart();
-    */
+    
+    
 
     //---------------------------------------------------------
 

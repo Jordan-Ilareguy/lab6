@@ -1124,3 +1124,185 @@
 503	641	7826891056631858	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
 503	641	7826891056631858	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
 503	641	7826891056631858	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+277	633	7827604404259201	bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+277	633	7827604404259201	bootloader/bootloader.elf	f57788d7b549d40
+277	633	7827604404259201	bootloader/bootloader.bin	f57788d7b549d40
+277	633	7827604404259201	bootloader/bootloader.map	f57788d7b549d40
+277	633	7827604404259201	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+277	633	7827604404259201	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.elf	f57788d7b549d40
+277	633	7827604404259201	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.bin	f57788d7b549d40
+277	633	7827604404259201	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.map	f57788d7b549d40
+638	722	7827604407852084	bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+638	722	7827604407852084	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+722	863	7827604409969528	CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+722	863	7827604409969528	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+722	863	7827604409969528	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+722	863	7827604409969528	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+203	521	7827604569291370	bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+203	521	7827604569291370	bootloader/bootloader.elf	f57788d7b549d40
+203	521	7827604569291370	bootloader/bootloader.bin	f57788d7b549d40
+203	521	7827604569291370	bootloader/bootloader.map	f57788d7b549d40
+203	521	7827604569291370	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+203	521	7827604569291370	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.elf	f57788d7b549d40
+203	521	7827604569291370	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.bin	f57788d7b549d40
+203	521	7827604569291370	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.map	f57788d7b549d40
+522	599	7827604572456437	bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+522	599	7827604572456437	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+600	788	7827604575053668	CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+600	788	7827604575053668	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+600	788	7827604575053668	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+600	788	7827604575053668	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+188	487	7827604723149309	bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+188	487	7827604723149309	bootloader/bootloader.elf	f57788d7b549d40
+188	487	7827604723149309	bootloader/bootloader.bin	f57788d7b549d40
+188	487	7827604723149309	bootloader/bootloader.map	f57788d7b549d40
+188	487	7827604723149309	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+188	487	7827604723149309	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.elf	f57788d7b549d40
+188	487	7827604723149309	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.bin	f57788d7b549d40
+188	487	7827604723149309	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.map	f57788d7b549d40
+488	538	7827604726076729	bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+488	538	7827604726076729	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+538	643	7827604727553705	CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+538	643	7827604727553705	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+538	643	7827604727553705	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+538	643	7827604727553705	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+158	900	7827604722892346	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	dcc50e382a781e8b
+900	1021	7827604730271149	esp-idf/main/libmain.a	d62d2b8ebfdf278f
+1021	10467	7827604825688539	esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+1021	10467	7827604825688539	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+10468	11200	7827604825969133	lab6.elf	550135a3b3423558
+11200	11472	7827604835926465	.bin_timestamp	573857379f8b81c0
+11200	11472	7827604835926465	C:/Users/jorda/Desktop/Programming Projects/lab6/build/.bin_timestamp	573857379f8b81c0
+11472	11557	7827604836035298	esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+11472	11557	7827604836035298	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+73	172	7827605173167184	esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+73	172	7827605173167184	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+62	221	7827605173016601	bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+62	221	7827605173016601	bootloader/bootloader.elf	f57788d7b549d40
+62	221	7827605173016601	bootloader/bootloader.bin	f57788d7b549d40
+62	221	7827605173016601	bootloader/bootloader.map	f57788d7b549d40
+62	221	7827605173016601	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+62	221	7827605173016601	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.elf	f57788d7b549d40
+62	221	7827605173016601	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.bin	f57788d7b549d40
+62	221	7827605173016601	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.map	f57788d7b549d40
+221	263	7827605174584161	bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+221	263	7827605174584161	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+263	355	7827605175930580	CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+263	355	7827605175930580	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+263	355	7827605175930580	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+263	355	7827605175930580	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+214	555	7827608933167568	bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+214	555	7827608933167568	bootloader/bootloader.elf	f57788d7b549d40
+214	555	7827608933167568	bootloader/bootloader.bin	f57788d7b549d40
+214	555	7827608933167568	bootloader/bootloader.map	f57788d7b549d40
+214	555	7827608933167568	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+214	555	7827608933167568	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.elf	f57788d7b549d40
+214	555	7827608933167568	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.bin	f57788d7b549d40
+214	555	7827608933167568	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.map	f57788d7b549d40
+557	640	7827608936601041	bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+557	640	7827608936601041	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+641	840	7827608939336484	CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+641	840	7827608939336484	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+641	840	7827608939336484	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+641	840	7827608939336484	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+182	1212	7827608932850168	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	dcc50e382a781e8b
+1213	1406	7827608943155988	esp-idf/main/libmain.a	d62d2b8ebfdf278f
+1406	10376	7827609034534679	esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+1406	10376	7827609034534679	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+10377	11050	7827609034781916	lab6.elf	550135a3b3423558
+11050	11291	7827609043876036	.bin_timestamp	573857379f8b81c0
+11050	11291	7827609043876036	C:/Users/jorda/Desktop/Programming Projects/lab6/build/.bin_timestamp	573857379f8b81c0
+11291	11378	7827609043876036	esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+11291	11378	7827609043876036	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+188	537	7827609802963377	bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+188	537	7827609802963377	bootloader/bootloader.elf	f57788d7b549d40
+188	537	7827609802963377	bootloader/bootloader.bin	f57788d7b549d40
+188	537	7827609802963377	bootloader/bootloader.map	f57788d7b549d40
+188	537	7827609802963377	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+188	537	7827609802963377	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.elf	f57788d7b549d40
+188	537	7827609802963377	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.bin	f57788d7b549d40
+188	537	7827609802963377	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.map	f57788d7b549d40
+539	615	7827609806485127	bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+539	615	7827609806485127	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+615	770	7827609808652584	CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+615	770	7827609808652584	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+615	770	7827609808652584	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+615	770	7827609808652584	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+162	940	7827609802685544	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	dcc50e382a781e8b
+941	1041	7827609810484289	esp-idf/main/libmain.a	d62d2b8ebfdf278f
+1041	8238	7827609883126924	esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+1041	8238	7827609883126924	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+8238	9114	7827609883472515	lab6.elf	550135a3b3423558
+9114	9377	7827609894812792	.bin_timestamp	573857379f8b81c0
+9114	9377	7827609894812792	C:/Users/jorda/Desktop/Programming Projects/lab6/build/.bin_timestamp	573857379f8b81c0
+9378	9479	7827609894812792	esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+9378	9479	7827609894812792	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+117	309	7827610793625406	bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+117	309	7827610793625406	bootloader/bootloader.elf	f57788d7b549d40
+117	309	7827610793625406	bootloader/bootloader.bin	f57788d7b549d40
+117	309	7827610793625406	bootloader/bootloader.map	f57788d7b549d40
+117	309	7827610793625406	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+117	309	7827610793625406	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.elf	f57788d7b549d40
+117	309	7827610793625406	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.bin	f57788d7b549d40
+117	309	7827610793625406	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.map	f57788d7b549d40
+310	366	7827610795597480	bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+310	366	7827610795597480	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+366	475	7827610797188892	CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+366	475	7827610797188892	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+366	475	7827610797188892	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+366	475	7827610797188892	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+101	647	7827610793442461	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	dcc50e382a781e8b
+648	761	7827610798942472	esp-idf/main/libmain.a	d62d2b8ebfdf278f
+762	12024	7827610912243456	esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+762	12024	7827610912243456	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+12024	12678	7827610912719930	lab6.elf	550135a3b3423558
+12678	12917	7827610921506991	.bin_timestamp	573857379f8b81c0
+12678	12917	7827610921506991	C:/Users/jorda/Desktop/Programming Projects/lab6/build/.bin_timestamp	573857379f8b81c0
+12919	13013	7827610921641100	esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+12919	13013	7827610921641100	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+192	552	7827612725923780	bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+192	552	7827612725923780	bootloader/bootloader.elf	f57788d7b549d40
+192	552	7827612725923780	bootloader/bootloader.bin	f57788d7b549d40
+192	552	7827612725923780	bootloader/bootloader.map	f57788d7b549d40
+192	552	7827612725923780	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+192	552	7827612725923780	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.elf	f57788d7b549d40
+192	552	7827612725923780	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.bin	f57788d7b549d40
+192	552	7827612725923780	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.map	f57788d7b549d40
+554	645	7827612729588795	bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+554	645	7827612729588795	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+645	839	7827612732304217	CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+645	839	7827612732304217	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+645	839	7827612732304217	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+645	839	7827612732304217	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+162	1229	7827612725659350	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	dcc50e382a781e8b
+1229	1357	7827612736321400	esp-idf/main/libmain.a	d62d2b8ebfdf278f
+1357	10957	7827612833347637	esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+1357	10957	7827612833347637	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+10958	11610	7827612833560306	lab6.elf	550135a3b3423558
+11611	11848	7827612842439848	.bin_timestamp	573857379f8b81c0
+11611	11848	7827612842439848	C:/Users/jorda/Desktop/Programming Projects/lab6/build/.bin_timestamp	573857379f8b81c0
+11848	11930	7827612842439848	esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+11848	11930	7827612842439848	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+133	330	7827613452922977	bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+133	330	7827613452922977	bootloader/bootloader.elf	f57788d7b549d40
+133	330	7827613452922977	bootloader/bootloader.bin	f57788d7b549d40
+133	330	7827613452922977	bootloader/bootloader.map	f57788d7b549d40
+133	330	7827613452922977	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	f57788d7b549d40
+133	330	7827613452922977	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.elf	f57788d7b549d40
+133	330	7827613452922977	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.bin	f57788d7b549d40
+133	330	7827613452922977	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/bootloader.map	f57788d7b549d40
+330	384	7827613454877741	bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+330	384	7827613454877741	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	a5dcefab16bde822
+384	499	7827613456484436	CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+384	499	7827613456484436	bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+384	499	7827613456484436	C:/Users/jorda/Desktop/Programming Projects/lab6/build/CMakeFiles/bootloader-complete	cf87f5fcccb2fe6e
+384	499	7827613456484436	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	cf87f5fcccb2fe6e
+115	642	7827613452755420	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	dcc50e382a781e8b
+643	750	7827613458037222	esp-idf/main/libmain.a	d62d2b8ebfdf278f
+750	9199	7827613543232154	esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+750	9199	7827613543232154	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esp_system/ld/sections.ld	8226cb79ba03e99d
+9200	10395	7827613543567258	lab6.elf	550135a3b3423558
+10396	11074	7827613562198710	.bin_timestamp	573857379f8b81c0
+10396	11074	7827613562198710	C:/Users/jorda/Desktop/Programming Projects/lab6/build/.bin_timestamp	573857379f8b81c0
+11075	11204	7827613562341880	esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
+11075	11204	7827613562341880	C:/Users/jorda/Desktop/Programming Projects/lab6/build/esp-idf/esptool_py/CMakeFiles/app_check_size	20e0374b9d2eaa4a
