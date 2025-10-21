@@ -8,6 +8,7 @@
 #define ADC_MAX           ((1 << ADC_BITS) - 1)  // 4095
 #define SAMPLES           8                      // average this many samples
 #define SAMPLE_PERIOD_MS  2000                    // delay between prints/logs
+#define POT               4  // GPIO number where potentiometer is connected
 
 // GPIO mapping (Demo 3.2)
 #define ADC_UNIT_ID       ADC_UNIT_1

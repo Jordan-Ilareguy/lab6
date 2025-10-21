@@ -5,6 +5,9 @@
 #include "esp_adc/adc_oneshot.h"
 #include "esp_spiffs.h"
 #include "fs_helpers.h"
+#include "driver/adc.h"
+#include "esp_adc/adc_oneshot.h"
+
 /**
  * Mount SPIFFS, open/write/read files, log fake and real samples to CSV,
  * then print the CSV back to the console
@@ -87,7 +90,7 @@ void app_main() {
      *   6. Reboot to demonstrate persistence across resets.
      */
     
-    
+    /*
 
     // Step 1: Mount SPIFFS
     fs_mount_or_die();
@@ -123,7 +126,7 @@ void app_main() {
     vTaskDelay(pdMS_TO_TICKS(10000));
     esp_restart();
     
-    
+    */
 
     //---------------------------------------------------------
 
@@ -135,7 +138,9 @@ void app_main() {
      *   3. Reading back the file to verify contents.
      */
     // 1: Mount SPIFFS.
+    
     /*
+
     fs_mount_or_die();
 
     // 2: Append 10 rows of fake data to "data.csv".
@@ -146,18 +151,19 @@ void app_main() {
     // 3: Open "data.csv" for reading and print its contents line by line
     // to the serial monitor. This verifies that data was logged successfully.
     fs_print_file("/spiffs/data.csv");
+    
     */
 
     //---------------------------------------------------------
 
     // Demo 3.2: 20 Samples over 20 x 2 = 40s
-    /*
+    
     fs_mount_or_die();       // make /spiffs available
     adc_oneshot_setup();     // init ADC channel
 
     log_pot_samples_csv(LOG_PATH, 20, SAMPLE_PERIOD_MS);  // log 20 samples
     fs_print_file(LOG_PATH); // verify contents
-    */
+    
 
     //---------------------------------------------------------
 
