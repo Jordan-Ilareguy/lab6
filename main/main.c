@@ -156,6 +156,8 @@ void app_main() {
 
     //---------------------------------------------------------
 
+    /*
+
     // Demo 3.2: 20 Samples over 20 x 2 = 40s
     
     fs_mount_or_die();       // make /spiffs available
@@ -164,11 +166,12 @@ void app_main() {
     log_pot_samples_csv(LOG_PATH, 20, SAMPLE_PERIOD_MS);  // log 20 samples
     fs_print_file(LOG_PATH); // verify contents
     
+    */
 
     //---------------------------------------------------------
 
     // Demo 3.3: CSV to Excel
-    /*
+    
     fs_mount_or_die();
     adc_oneshot_setup();
 
@@ -180,13 +183,14 @@ void app_main() {
     // When ready to export, print the file as pure CSV over USB:
     print_csv_file_only(LOG_PATH);
 
-    
     // Give time for all UART data to transmit
     vTaskDelay(pdMS_TO_TICKS(2000));
 
+    fs_print_file(LOG_PATH); // verify contents
+
     // Unmount SPIFFS and end the program
     esp_vfs_spiffs_unregister(NULL);
-    */
+    
 
     //---------------------------------------------------------
 
