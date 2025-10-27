@@ -180,20 +180,17 @@ int adc_read_avg(adc_channel_t ch, int samples) {
  */
 
 void log_thermistor_samples_csv(const char *path, int samples, int period) {
-    FILE *f = fopen(path, "a");  // append mode - adds to existing file
+    FILE *f = fopen(path, "w");  // write mode - overwrites existing file
     if (!f) {
-        printf("open for append failed: %s\n", path);
+        printf("open for write failed: %s\n", path);
         return;
     }
     
-    // Write header only if file is empty (new file)
-    fseek(f, 0, SEEK_END);
-    if (ftell(f) == 0) {
-        fprintf(f, "index,temperature_C\n");
-    }
+    // Write header
+    fprintf(f, "index,temperature_C\n");
 
     for (int i = 0; i < samples; i++) {
-        printf("Collecting sample %d of %d...\n", i + 1, samples);
+        
         int raw = adc_read_avg(ADC_CH_THERMISTOR, SAMPLES);
         
         // Thermistor temperature calculation using Beta equation
