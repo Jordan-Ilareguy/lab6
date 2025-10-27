@@ -166,3 +166,108 @@
 30	225	7827647730098955	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
 39	130	7827660382586835	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
 39	130	7827660382586835	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+22	316	7827670793212466	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+22	316	7827670793212466	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+24	252	7827671383228923	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32s3/esp_efuse_rtc_calib.c.obj	ae64c94dc34441f6
+253	550	7827671385509833	esp-idf/efuse/libefuse.a	36e4ddc3030cfd93
+551	910	7827671388492346	bootloader.elf	84b9af40b37b19a3
+910	1658	7827671399475320	.bin_timestamp	5411bb8e5ee27004
+910	1658	7827671399475320	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/.bin_timestamp	5411bb8e5ee27004
+1658	1837	7827671399556111	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+1658	1837	7827671399556111	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	235	7827672529127536	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	235	7827672529127536	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+14	198	7827677901646212	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+14	198	7827677901646212	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+21	136	7827678116397660	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+21	136	7827678116397660	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+16	142	7827678379849581	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+16	142	7827678379849581	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+17	188	7827684621466291	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+17	188	7827684621466291	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+19	204	7827684940009344	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+19	204	7827684940009344	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+18	182	7827686316306269	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+18	182	7827686316306269	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+17	177	7827686716878085	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+17	177	7827686716878085	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+65	190	7832182966626668	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+65	190	7832182966626668	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+33	127	7832184123456340	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+33	127	7832184123456340	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+65	180	7832253899842996	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+65	180	7832253899842996	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+33	137	7832255112711267	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+33	137	7832255112711267	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+30	123	7832256117815407	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+30	123	7832256117815407	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+35	170	7832257203749101	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+35	170	7832257203749101	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+41	156	7832259993700612	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+41	156	7832259993700612	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+32	126	7832260486237689	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+32	126	7832260486237689	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+38	134	7832260649348019	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+38	134	7832260649348019	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	132	7832273553663950	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	132	7832273553663950	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+35	147	7832274533992962	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+35	147	7832274533992962	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+36	143	7832275935999589	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+36	143	7832275935999589	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+37	150	7832277433844187	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+37	150	7832277433844187	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+39	227	7832281111952117	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+39	227	7832281111952117	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+35	139	7832281370499053	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+35	139	7832281370499053	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+33	143	7832281595680468	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+33	143	7832281595680468	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+81	198	7832281940046982	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+81	198	7832281940046982	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+39	152	7832286337781295	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+39	152	7832286337781295	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+46	157	7832287807838147	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+46	157	7832287807838147	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+45	139	7832289732442645	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+45	139	7832289732442645	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+30	154	7832290700111265	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+30	154	7832290700111265	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+39	141	7832290963938067	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+39	141	7832290963938067	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+40	144	7832291062872790	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+40	144	7832291062872790	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+90	193	7832386862424893	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+90	193	7832386862424893	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+30	104	7832387106848926	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+30	104	7832387106848926	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+44	123	7832387427597242	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+44	123	7832387427597242	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+81	187	7832393425724003	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+81	187	7832393425724003	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+30	111	7832393551288676	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+30	111	7832393551288676	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+29	105	7832393833525568	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+29	105	7832393833525568	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+44	119	7832395137608542	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+44	119	7832395137608542	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+25	96	7832397680752359	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+25	96	7832397680752359	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	99	7832400247334378	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	99	7832400247334378	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	107	7832404424489517	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	107	7832404424489517	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+27	104	7832408912001248	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+27	104	7832408912001248	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	102	7832410010665024	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	102	7832410010665024	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	100	7832412020129363	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	100	7832412020129363	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	110	7832415756398262	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+28	110	7832415756398262	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+26	95	7832415958265704	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+26	95	7832415958265704	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+27	107	7832419609648205	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+27	107	7832419609648205	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+25	93	7832419862373084	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198
+25	93	7832419862373084	C:/Users/jorda/Desktop/Programming Projects/lab6/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	59f0cdcfb0408198

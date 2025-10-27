@@ -20,6 +20,8 @@
   "idf.flashType": "UART",
   "files.associations": {
     "fs_helpers.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "adc_oneshot.h": "c",
+    "esp_spiffs.h": "c"
   }
 }

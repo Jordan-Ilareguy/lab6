@@ -5,14 +5,14 @@
 #include "esp_adc/adc_oneshot.h"
 #include "esp_spiffs.h"
 #include "fs_helpers.h"
-#include "driver/adc.h"
-#include "esp_adc/adc_oneshot.h"
 
 /**
  * Mount SPIFFS, open/write/read files, log fake and real samples to CSV,
  * then print the CSV back to the console
  * You can also save data from CSV to Excel
  */
+
+
 
 void app_main() {
   
@@ -170,7 +170,7 @@ void app_main() {
 
     //---------------------------------------------------------
 
-    // Demo 3.3: CSV to Excel
+    /* Demo 3.3 Potentiometer: CSV to Excel
     
     fs_mount_or_die();
     adc_oneshot_setup();
@@ -188,10 +188,31 @@ void app_main() {
 
     fs_print_file(LOG_PATH); // verify contents
 
-    // Unmount SPIFFS and end the program
-    esp_vfs_spiffs_unregister(NULL);
+        // Unmount SPIFFS and end the program
+        esp_vfs_spiffs_unregister(NULL);
+    }
     
+    */
 
     //---------------------------------------------------------
 
+    // Demo 3.3 Thermistor: CSV to Excel
+    
+    fs_mount_or_die(); // make /spiffs available
+    adc_oneshot_setup(); // init ADC channel
+
+    // user starts to log within 6s pressing Ctrl+T then Ctrl+L
+    vTaskDelay(pdMS_TO_TICKS(6000)); 
+
+    log_thermistor_samples_csv(LOG_PATH, 20, SAMPLE_PERIOD_MS); // Log thermistor samples to a CSV file
+
+    // When ready to export, print the file as pure CSV over USB:
+    print_csv_file_only(LOG_PATH);
+
+    // Give time for all UART data to transmit
+    vTaskDelay(pdMS_TO_TICKS(2000));
+
+    // Unmount SPIFFS and end the program
+    esp_vfs_spiffs_unregister(NULL);
+    
 }

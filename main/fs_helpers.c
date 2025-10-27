@@ -4,16 +4,15 @@
  */
 
 #include <stdio.h>
+#include <math.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"          
 #include "esp_err.h"  
 #include "esp_log.h"     
 #include "esp_spiffs.h"     // SPIFFS filesystem support
-#include "esp_system.h" 
-
-#include "driver/adc.h"
+#include "esp_system.h"
 #include "esp_adc/adc_oneshot.h"
-
+#include "hal/adc_types.h"
 #include "fs_helpers.h"
 
 // Handle for oneshot ADC
@@ -136,7 +135,7 @@ void log_csv_sample(const char *path, int samples) {
 }
 
 /**
- * @brief Initialize ADC in one-shot mode for the potentiometer channel.
+ * @brief Initialize ADC in one-shot mode for the potentiometer/thermistor channels.
  */
 void adc_oneshot_setup() {
     adc_oneshot_unit_init_cfg_t unit_cfg = {
@@ -146,9 +145,12 @@ void adc_oneshot_setup() {
 
     adc_oneshot_chan_cfg_t chan_cfg = {
         .bitwidth = ADC_BITWIDTH_12,
-        .atten    = ADC_ATTEN_DB_11   // allows ~0–3.3V range
+        .atten    = ADC_ATTEN_DB_12   // allows ~0–3.3V range
     };
+    
+    // Configure both potentiometer and thermistor channels
     adc_oneshot_config_channel(adc1_handle, ADC_CH_POT, &chan_cfg);
+    adc_oneshot_config_channel(adc1_handle, ADC_CH_THERMISTOR, &chan_cfg);
 }
 
 /**
@@ -176,22 +178,43 @@ int adc_read_avg(adc_channel_t ch, int samples) {
  * @param samples  Number of rows to log
  * @param period   Delay between samples (ms)
  */
-void log_pot_samples_csv(const char *path, int samples, int period) {
-    FILE *f = fopen(path, "w");  // write mode
+
+void log_thermistor_samples_csv(const char *path, int samples, int period) {
+    FILE *f = fopen(path, "a");  // append mode - adds to existing file
     if (!f) {
         printf("open for append failed: %s\n", path);
         return;
     }
-
-    // Write header once if file is new
+    
+    // Write header only if file is empty (new file)
     fseek(f, 0, SEEK_END);
     if (ftell(f) == 0) {
-        fprintf(f, "index,raw_value\n");
+        fprintf(f, "index,temperature_C\n");
     }
 
     for (int i = 0; i < samples; i++) {
-        int raw = adc_read_avg(ADC_CH_POT, SAMPLES);
-        fprintf(f, "%d,%d\n", i, raw);
+        printf("Collecting sample %d of %d...\n", i + 1, samples);
+        int raw = adc_read_avg(ADC_CH_THERMISTOR, SAMPLES);
+        
+        // Thermistor temperature calculation using Beta equation
+        const float Vin = 3.3f;           // Supply voltage
+        const float R_fixed = 10000.0f;   // 10k series resistor
+        const float R0 = 10000.0f;        // Thermistor resistance at 25°C
+        const float T0 = 25.0f + 273.15f; // 25°C in Kelvin
+        const float B = 3950.0f;          // Beta coefficient
+        
+        // Convert ADC to voltage
+        float VRT = ((float)raw * Vin) / (float)ADC_MAX;
+        
+        // Calculate thermistor resistance using voltage divider
+        // Divider: Vin -> R_fixed -> node(VRT) -> Thermistor -> GND
+        float RT = (R_fixed * VRT) / (Vin - VRT);
+        
+        // Beta equation: 1/T = 1/T0 + (1/B)*ln(RT/R0)
+        float T_kelvin = 1.0f / ((1.0f / T0) + (logf(RT / R0) / B));
+        float temperature = T_kelvin - 273.15f; // Convert to Celsius
+
+        fprintf(f, "#%d, %.2f°C\n", i, temperature);
         fflush(f); // flush to SPIFFS
         vTaskDelay(pdMS_TO_TICKS(period));
     }
@@ -234,3 +257,5 @@ void print_csv_file_only(const char *path) {
         printf("error,message\r\n,Could not open file\r\n");
     }
 }
+
+
